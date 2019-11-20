@@ -9,6 +9,11 @@ to compile and install the C++ code :
 
 $ sh install.sh
 
+# Running the noisy ellipses example
+
+$ Python3 STS2_noisyEllipses.py
+
+
 ## References
 
 [1] Marteau, P.F., Times series averaging and denoising from a probabilistic perspective on time-elastic kernels International Journal of Applied Mathematics and Computer Science, De Gruyter [pdf](https://hal.archives-ouvertes.fr/hal-01401072)
