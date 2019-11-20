@@ -3,13 +3,13 @@
 
 This repository contains Wrapper Python for the code defined and used in [1] with some extensions dedicated to the separation of shape and temporal pattern in time series as described in [2]. Documentation is in /doc directory.
 
-# Installation
+## Installation
 
-to compile and install the C++ code :
+To compile and install the C++ code with its python wrapper:
 
 $ sh install.sh
 
-# Running the noisy ellipses example
+## Running the noisy ellipses example
 
 $ Python3 STS2_noisyEllipses.py
 
