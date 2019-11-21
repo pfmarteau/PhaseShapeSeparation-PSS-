@@ -3,7 +3,7 @@
 This repository contains Wrapper Python for the C++ code for averaging time series using elastic kernels defined and used in [1] with some extensions dedicated to the separation of shape and temporal pattern in time series as described in [2]. 
 This repository is self contained and extends [eKATS](https://github.com/pfmarteau/eKATS) repository.
 
-## Installation (tested on UBUNTU 16.04, 18.04)
+## Installation (tested on Ubuntu 16.04, 18.04)
 
 To compile and install the C++ code with its python wrapper:
 
