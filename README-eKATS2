@@ -1,0 +1,36 @@
+# pfm 02/12/2018
+# eKATS2 (elastic Kernel Averaging for Time Series) Wrapper fo python3, using Cython
+# Referneces: 
+# Copyright (c) IRISA, Pierre-François Marteau
+# References:
+# [i] P. F. Marteau and S. Gibet, "On Recursive Edit Distance Kernels With Application to Time 
+# Series Classification," in IEEE Transactions on Neural Networks and Learning Systems, vol. 26,
+# no. 6, pp. 1121-1133, June 2015. doi: 10.1109/TNNLS.2014.2333876
+# [ii] Pierre-François Marteau, Times series averaging and denoising from a probabilistic
+# perspective on time-elastic kernels, International Journal of Applied Mathematics and Computer 
+# Science, De Gruyter, In press
+#
+# SOURCE LICENSE
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation (www.fsf.org); either version 2 of the
+# License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# A copy of the GNU General Public License is available at
+# http://www.fsf.org/licensing/licenses
+# END OF LICENSE >>>
+# -----------------------------------------------------------------------------------------------
+#Tested on Linux Ubuntu 16.10 and Debian 9 (strech) AMD64
+
+#Installing:
+$cd <local ekats2 folder>
+$sh install.sh
+
+
+
+
