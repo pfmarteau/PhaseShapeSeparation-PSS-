@@ -18,4 +18,4 @@ $ Python3 STS2_noisyEllipses.py
 
 [1] Marteau, P.F., Times series averaging and denoising from a probabilistic perspective on time-elastic kernels International Journal of Applied Mathematics and Computer Science, De Gruyter [pdf](https://arxiv.org/abs/1611.09194)
 
-[2] Marteau, P.F., On the separation of shape and temporal patterns in time series -Application to signature authentication-  [pdf](https://hal.archives-ouvertes.fr/hal-02373531)
+[2] Marteau, P.F., On the separation of shape and temporal patterns in time series -Application to signature authentication-  [pdf](https://arxiv.org/abs/1911.09360)
