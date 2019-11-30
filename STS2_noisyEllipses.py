@@ -136,12 +136,11 @@ plt.show()
 # Plot the True xi functions
 plt.figure(100)
 for i in range(len(xi)):
-    l=np.min([len(Ttrue), len(xi[i])])
-    plt.plot(Ttrue[:l],xi[i][:l], 'b', linewidth=1)
-plt.plot(Ttrue,Ttrue, 'r', linewidth=1)
-plt.title(r"True $\xi_i$")
+    plt.plot(xi[i][:], 'b', linewidth=1)
+plt.plot(Ttrue, 'r', linewidth=1)
+plt.title(r"Fonctions $h_i$ réelles")
 plt.grid()
-plt.savefig("images/true_xi_ex1.pdf")
+plt.savefig("images/true_hi_ex1.pdf")
 plt.show()
 
 
@@ -154,22 +153,20 @@ for n in range(L):
 # xi estimated from the outputs of iTEKA
 plt.figure(101)
 for i in range(L):
-    l=np.min([len(Ttrue), len(TT[i])])
-    plt.plot(Ttrue[:l],TT[i][:l]*max(Ttrue)/len(TT[i]), 'b', linewidth=1)
-plt.plot(Ttrue,Ttrue, 'r', linewidth=1)
-plt.title(r"Estimated $\xi_i$")
+    plt.plot(TT[i][:]*max(Ttrue)/len(TT[i]), 'b', linewidth=1)
+plt.plot(Ttrue, 'r', linewidth=1)
+plt.title(r"Fonctions $\hat{h}_i$ estimées")
 plt.grid()
-plt.savefig("images/estimated_xi_ex1.0.pdf")
+plt.savefig("images/estimated_hi_ex1.0.pdf")
 # xi restimated through the alignment with the estimated centroid
 plt.figure(102)
 for n in range(len(S)):
     T00, err00 = alignCentroid(S[n], CC, nu=nu)
-    l=np.min([len(Ttrue), len(T00)])
-    plt.plot(Ttrue[:l], T00[:l]*max(Ttrue)/len(T00),'b')
-plt.plot(Ttrue,Ttrue, 'r', linewidth=1)
-plt.title(r"Estimated $\xi_i$")
+    plt.plot(T00[:]*max(Ttrue)/len(T00),'b')
+plt.plot(Ttrue, 'r', linewidth=1)
+plt.title(r"Fonctions $\hat{h}_i$ estimées")
 plt.grid()
-plt.savefig("images/estimated_xi_ex1.1.pdf")
+plt.savefig("images/estimated_hi_ex1.1.pdf")
 plt.show()
 
 FV=True
