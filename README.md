@@ -1,4 +1,4 @@
-# Separation of Shape and Temporal Patterns in Time Series
+# Separation of Shape and Phase in Time Series
 
 This repository contains a Python wrapper for the C++ code for averaging time series using elastic kernels defined and used in [1] with some extensions dedicated to the separation of shape and temporal pattern in time series as described in [2]. 
 This repository is self contained and extends [eKATS](https://github.com/pfmarteau/eKATS) repository.
