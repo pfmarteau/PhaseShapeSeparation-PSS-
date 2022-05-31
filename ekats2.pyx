@@ -37,7 +37,7 @@ cdef class PyeKats2:
     def kdtw(self, sv1, sv2, nu):
         return self.thisptr.kdtw(sv1, sv2, nu)
     def iTEKA(self, sv1, ds, nu):
-        return np.array(self.thisptr.iTEKA(sv1, ds, nu))
+        return np.array(self.thisptr.iTEKA(sv1, ds, nu), dtype=object)
     def iTEKA_stdev(self, sv1, ds, nu):
-        return np.array(self.thisptr.iTEKA_stdev(sv1, ds, nu))
+        return np.array(self.thisptr.iTEKA_stdev(sv1, ds, nu), dtype=object)
 
